@@ -1,0 +1,3 @@
+[submodule "hugo-mealplan-menu/themes/hugo-menu"]
+	path = hugo-mealplan-menu/themes/hugo-menu
+	url = https://github.com/gentleadam/hugo-menu.git
