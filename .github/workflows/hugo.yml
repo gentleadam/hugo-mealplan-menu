@@ -56,7 +56,7 @@ jobs:
         run: |
           hugo \
             --minify \
-            --source hugo-mealplan-menu
+            --source hugo-mealplan-menu \
             --baseURL "${{ steps.pages.outputs.base_url }}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
